@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Central Methodist Church Jodhpur</title>
+    <link rel="stylesheet" href="homepage.css">
+</head> 
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Central Methodist Church Jodhpur</h1>
+            <nav>
+                <div class="image-container">Rev. Daler Maish</div>
+                <img src="image1.jpg" alt="Chruch logo" id="image">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#Member List">Member List</a></li>
+                    <li><a href="#Family Tree">Family Tree</a></li>
+                    <li><a href="#Upcoming Events">Upcoming Events</a></li>
+                </ul>
+                <div class="burger" id="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+    
+        </div>
+    </header>
+
+    <section id="welcome" class="container">
+        <h2>Welcome Message</h2>
+        <p>We are delighted to have you visit our website. Our church is a community of believers dedicated to worship, fellowship, and serving others.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Service Times</h2>
+        <ul>
+            <li>Sunday Worship: 09:00 AM</li>
+            <li>Wednesday Samual Hall worship: 6:00 PM</li>
+        </ul>
+    </section>
+
+    <section id="events" class="container">
+        <h2>Upcoming Events</h2>
+        <ul id="events-list">
+            <!-- Events will be dynamically loaded here by JavaScript -->
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        <div id="contactMessage"></div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Central Methodist Church Jodhpur. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
