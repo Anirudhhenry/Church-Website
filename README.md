@@ -1,1 +1,2 @@
 # Church-Website
+This Church Website project is a comprehensive and interactive platform designed to serve the members of a church community. The website provides essential information about church activities, events, services, and other important updates, in this church treasurer can update records, can enter plegdes and other transcation in accounts. Built using HTML, CSS, and JavaScript, the website is designed to be user-friendly, visually appealing, and responsive across various devices.
